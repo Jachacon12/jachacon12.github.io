@@ -1,0 +1,253 @@
+body {
+  margin: 0;
+  height: 100vh;
+}
+
+.container {
+  max-width: 960px;
+}
+
+/* navbar */
+.site-header {
+  background: url("../img/texture1.png");
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+.site-header a {
+  color:   #fff;
+  transition: ease-in-out color .15s;
+}
+.site-header h1{
+  color: #fff;
+}
+.site-header a:hover {
+  color: #d61d4e;
+  text-decoration: none;
+}
+
+/* test2 */
+.navbar {
+  background: url("../img/texture1.png");
+  padding-right: 50px;
+
+}
+ #navbar a {
+  color:   #fff;
+  transition: ease-in-out color .15s;
+}
+.navbar h1{
+  color: #fff;
+}
+#navbar a:hover {
+  color: #d61d4e;
+  text-decoration: none;
+}
+.nav-link {
+  font-size: 1rem;
+  font-weight: bold;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.navbar-brand{
+  margin-left: 40px;
+}
+
+/* colors */
+.bg-light{
+  background: url("../img/light1.png");
+}
+.bg-dark{
+  background: url("../img/dark1.png")
+}
+/* Portfolio settings */
+.product{
+width: 100%;
+}
+
+.flex-equal > * {
+  -ms-flex: 1;
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    -ms-flex: 1;
+    flex: 1;
+  }
+}
+
+.overflow-hidden { overflow: hidden; }
+
+/* homepage */
+  /* Panels. */
+.splitview {
+    position: relative;
+    width: 100%;
+    min-height: 45vw;
+    overflow: hidden;
+}
+
+.panel {
+    position: absolute;
+    width: 100vw;
+    min-height: 45vw;
+    overflow: hidden;
+}
+
+    .panel .content {
+        position: absolute;
+        width: 100vw;
+        min-height: 45vw;
+        color: #FFF;
+    }
+
+    .panel .description {
+        width: 29%;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        text-align: center;
+    }
+
+    .panel img {
+        box-shadow: 0 0 20px 20px rgba(0, 0, 0, 0.15);
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border: 10px solid #fff;
+    }
+
+
+.bottom {
+    background-color: #323232;
+    z-index: 1;
+}
+
+    .bottom .description {
+        right: 5%;
+    }
+
+.top {
+    background-color: #ff0b55;
+    z-index: 2;
+    width: 50vw;
+
+    /*-webkit-clip-path: polygon(60% 0, 100% 0, 100% 100%, 40% 100%);
+    clip-path: polygon(60% 0, 100% 0, 100% 100%, 40% 100%);*/
+}
+
+    .top .description {
+        left: 5%;
+    }
+
+/* Handle. */
+.handle {
+    height: 100%;
+    position: absolute;
+    display: block;
+    background-color: #ffdee6;
+    width: 5px;
+    top: 0;
+    left: 50%;
+    z-index: 3;
+}
+
+/* Skewed. */
+.skewed .handle {
+    top: 50%;
+    transform: rotate(30deg) translateY(-50%);
+    height: 200%;
+    -webkit-transform-origin: top;
+    -moz-transform-origin: top;
+    transform-origin: top;
+}
+
+.skewed .top {
+    transform: skew(-30deg);
+    margin-left: -1000px;
+    width: calc(50vw + 1000px);
+}
+
+.skewed .top .content {
+    transform: skew(30deg);
+    margin-left: 1000px;
+}
+
+/* Responsive. */
+@media (max-width: 900px) {
+    body {
+        font-size: 75%;
+    }
+}
+
+/* text homepage */
+#homepage h1 {
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  font-size: 41px;
+  padding: 40px 26px;
+  text-align: center;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+  }
+  .retroshadow {
+    color: #2c2c2c;
+    background-color: #ffdee6;
+    letter-spacing: .05em;
+    text-shadow:
+      2px 2px 0px #ffdee6,
+      3.5px 3.5px 0px rgba(0, 0, 0, 0.2);
+  }
+
+/* end homepage */
+/* Map */
+.map {
+  height: 20rem;
+}
+@media (max-width: 992px) {
+  .map {
+    height: 35%;
+  }
+}
+
+.map iframe {
+  pointer-events: none;
+}
+
+.content-section {
+  padding-top: 7.5rem;
+  padding-bottom: 7.5rem;
+  background: url("../img/cta-bg.png");
+}
+
+.content-section-heading h2 {
+  font-size: 3rem;
+}
+
+footer.footer {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+footer.footer .social-link {
+  display: block;
+  height: 4rem;
+  width: 4rem;
+  line-height: 4.3rem;
+  font-size: 1.5rem;
+  background-color: #1D809F;
+  -webkit-transition: background-color 0.15s ease-in-out;
+  transition: background-color 0.15s ease-in-out;
+  -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+footer.footer .social-link:hover {
+  background-color: #155d74;
+  text-decoration: none;
+}
+
+.text-white {
+  color: #fff;
+}
