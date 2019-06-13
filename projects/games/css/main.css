@@ -1,11 +1,3 @@
-/*!
- * Perth
- * PSD Created by Peter Finlan http://dribbble.com/peterfinlan
- *
- * Coding by Theme Armada
- * Visit us for more Bootstrap themes at: http://www.themearmada.com
- * Handcrafted with love in Atlanta!
- */
 /* ==========================================================================
    Global styles
    ========================================================================== */
@@ -252,9 +244,6 @@ p {
   overflow: hidden;
   height: auto;
 }
-.container1 {
-  margin-left: 80px;
-}
 
 .main1-img {
   position: absolute;
@@ -281,9 +270,7 @@ p {
   overflow: hidden;
   height: auto;
 }
-.container3 {
-  margin-left: 80px;
-}
+
 #message {
   padding: 100px 0px;
   background: #4eacdd;
