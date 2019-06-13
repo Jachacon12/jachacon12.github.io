@@ -486,4 +486,11 @@ footer p {
 }
 
 /* Large screens */
-@media (min-width: 1200px) and (max-width: 3000px) {}
+@media (min-width: 1200px) and (max-width: 3000px) {
+.container1 {
+    margin-left: 80px;
+  }
+  .container3 {
+    margin-left: 80px;
+  }
+}
