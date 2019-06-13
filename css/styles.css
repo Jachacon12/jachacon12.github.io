@@ -356,6 +356,14 @@ h1 {
   bottom: 2%;
   z-index: 1001;
 }
+.email:hover {
+    color: #F1C40F;
+    text-decoration: none;
+}
+.a-email:link{
+    text-decoration: inherit;
+    color: inherit;
+}
 
 /**************** Resume **************/
 .container-5{
